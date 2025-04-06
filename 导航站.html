@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 工具导航站</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .category {
+            margin-bottom: 30px;
+        }
+        .category h2 {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .tools {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .tool {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            width: 180px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .tool a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .tool p {
+            font-size: 0.9em;
+            color: #777;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI 工具导航站</h1>
+        <p>探索最热门的AI工具，提升工作效率</p>
+    </header>
+
+    <div class="container">
+        <!-- 聊天与语言生成 -->
+        <div class="category">
+            <h2>聊天与语言生成</h2>
+            <div class="tools">
+                <div class="tool">
+                    <a href="https://chat.openai.com/" target="_blank">ChatGPT</a>
+                    <p>自然语言理解和生成</p>
+                </div>
+                <div class="tool">
+                    <a href="https://claude.ai/" target="_blank">Claude</a>
+                    <p>由Anthropic公司开发的对话助手</p>
+                </div>
+                <div class="tool">
+                    <a href="https://grok.com/" target="_blank">Grok</a>
+                    <p>xAI推出的聊天机器人</p>
+                </div>
+                <div class="tool">
+                    <a href="https://www.jasper.ai/" target="_blank">Jasper AI</a>
+                    <p>内容创作与文案生成</p>
+                </div>
+                <div class="tool">
+                    <a href="https://www.copy.ai/" target="_blank">Copy.ai</a>
+                    <p>创意文案与营销内容生成</p>
+                </div>
+                <div class="tool">
+                    <a href="https://otter.ai/" target="_blank">Otter.ai</a>
+                    <p>实时转录与会议记录</p>
+                </div>
+                <div class="tool">
+                    <a href="https://www.notion.so/product/ai" target="_blank">Notion AI</a>
+                    <p>集成在Notion中的AI助手</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 图像生成与设计 -->
+        <div class="category">
+            <h2>图像生成与设计</h2>
+            <div class="tools">
+                <div class="tool">
+                    <a href="https://www.midjourney.com/" target="_blank">Midjourney</a>
+                    <p>基于AI的图像生成工具</p>
+                </div>
+                <div class="tool">
+                    <a href="https://openai.com/dall-e-2/" target="_blank">DALL·E 2</a>
+                    <p>OpenAI的图像生成模型</p>
+                </div>
+                <div class="tool">
+                    <a href="https://stability.ai/" target="_blank">Stable Diffusion</a>
+                    <p>开源图像生成工具</p>
+                </div>
+                <div class="tool">
+                    <a href="https://www.pictory.ai/" target="_blank">Pictory</a>
+                    <p>将长视频转化为短视频</p>
+                </div>
+                <div class="tool">
+                    <a href="https://runwayml.com/" target="_blank">Runway ML</a>
+                    <p>为创作者提供图像和视频生成工具</p>
+                </div>
+                <div class="tool">
+                    <a href="https://www.synthesia.io/" target="_blank">Synthesia</a>
+                    <p>AI视频生成平台</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 编程与开发辅助 -->
+        <div class="category">
+            <h2>编程与开发辅助</h2>
+            <div class="tools">
+                <div class="tool">
+                    <a href="https://copilot.github.com/" target="_blank">GitHub Copilot</a>
+                    <p>AI编程助手，自动补全代码</p>
+                </div>
+                <div class="tool">
+                    <a href="https://www.deepl.com/translator" target="_blank">DeepL Translator</a>
+                    <p>高质量的AI翻译工具</p>
+                </div>
+                <div class="tool">
+                    <a href="https://zapier.com/" target="_blank">Zapier</a>
+                    <p>自动化工作流程工具</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 音频和视频处理 -->
+        <div class="category">
+            <h2>音频和视频处理</h2>
+            <div class="tools">
+                <div class="tool">
+                    <a href="https://www.descript.com/" target="_blank">Descript</a>
+                    <p>音频和视频编辑工具</p>
+                </div>
+                <div class="tool">
+                    <a href="https://lumen5.com/" target="_blank">Lumen5</a>
+                    <p>将文本转化为短视频</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI内容创作与营销 -->
+        <div class="category">
+            <h2>AI内容创作与营销</h2>
+            <div class="tools">
+                <div class="tool">
+                    <a href="https://www.jasper.ai/" target="_blank">Jasper AI</a>
+                    <p>内容创作和文案生成</p>
+                </div>
+                <div class="tool">
+                    <a href="https://www.copy.ai/" target="_blank">Copy.ai</a>
+                    <p>创意与营销文案生成</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 自动化与工作流管理 -->
+        <div class="category">
+            <h2>自动化与工作流管理</h2>
+            <div class="tools">
+                <div class="tool">
+                    <a href="https://zapier.com/" target="_blank">Zapier</a>
+                    <p>自动化任务和工作流</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 AI 工具导航站</p>
+    </footer>
+</body>
+</html>
